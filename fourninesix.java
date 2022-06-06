@@ -10,7 +10,7 @@ public class fourninesix {
        System.out.println(Arrays.toString(three));
      }
     static int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int[] nge = new int[nums1.length];
+    int[] nge = new int[nums1.length];
     Stack<Integer> st = new Stack<>();
     HashMap<Integer, Integer> map = new HashMap<>();
 
