@@ -6,15 +6,13 @@ public class twozeroonesix {
      }
      static int maximumDifference(int[] nums) {
         int min = nums[0];
-        int diff = -1;
-        int i=1;        
-        while(i<nums.length){        
+        int diff = -1;       
+        for(int i=1;i<nums.length;i++){        
             if(nums[i] > min){
                 diff = Math.max(diff, nums[i]-min);
             }else{
                 min = nums[i];
             }
-            i++;
         }
         
         return diff;
